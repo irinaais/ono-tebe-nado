@@ -52,3 +52,77 @@
 .header__address {
   justify-self: end;
 }
+
+.cover {
+  background: url("../images/cover.jpg") no-repeat;
+  height: 757px;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  z-index: -1;
+  padding: 165px 50px 50px 50px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0 0 0 / .6);
+  z-index: 0;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 30px;
+  padding-bottom: 147px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: initial;
+}
+
+.cover__description {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  z-index: 1;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  word-spacing: 20px;
+  line-height: normal;
+  align-self: center;
+}
+
+.bet-button {
+  text-transform: uppercase;
+  margin-left: 78px;
+  background-color: transparent;
+  color: white;
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 400;
+  border: 1px solid white;
+  padding: 12px 32px;
+}
