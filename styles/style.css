@@ -139,6 +139,9 @@
   text-transform: uppercase;
   margin-left: 40px;
   padding-bottom: 27px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .lots__card-list {
@@ -209,6 +212,9 @@
   margin-left: 40px;
   border-bottom: 1px solid black;
   text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .about {
