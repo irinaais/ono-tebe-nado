@@ -208,7 +208,6 @@
 
 .about {
   padding: 0 50px;
-  margin-bottom: 180px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 240px 1fr;
@@ -257,4 +256,40 @@
 
 .about__text-container .about__text:last-child {
   margin-bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 180px 50px 90px;
+}
+
+.footer__menu {
+  text-align: center;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-link {
+  text-decoration: none;
+  border-bottom: black 1px solid;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style: none;
+  width: 240px;
+  height: 48px;
+  justify-content: space-between;
+}
+
+.footer__social-icon {
+  height: 48px;
 }
