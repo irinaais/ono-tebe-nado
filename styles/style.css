@@ -264,6 +264,9 @@
 
 .about__text-container .about__text {
   margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .about__text-container .about__text:last-child {
