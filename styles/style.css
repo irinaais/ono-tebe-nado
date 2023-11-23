@@ -277,6 +277,9 @@
   display: flex;
   justify-content: space-between;
   padding: 180px 50px 90px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer__menu {
