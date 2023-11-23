@@ -45,6 +45,10 @@
   justify-self: center;
 }
 
+.header__logo-image {
+  height: 100%;
+}
+
 .address {
   line-height: 1.35;
 }
@@ -126,6 +130,7 @@
   border: 1px solid white;
   padding: 12px 32px;
 }
+
 .lots {
   padding: 180px 50px;
 }
@@ -230,6 +235,7 @@
   justify-content: center;
   align-items: center;
   grid-area: logo;
+  margin: 0 auto;
 }
 
 .about__logo-img {
